@@ -41,10 +41,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -73,6 +69,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -138,10 +141,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -170,6 +169,20 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-id+json). Do not include \"version\".",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -255,10 +268,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -287,6 +296,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -353,10 +369,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -385,6 +397,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -456,10 +475,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -488,6 +503,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -559,10 +581,6 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -591,6 +609,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -662,10 +687,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -694,6 +715,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -772,10 +800,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -804,6 +828,20 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-id+json). Do not include \"version\".",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -888,10 +926,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -920,6 +954,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -986,10 +1027,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1018,6 +1055,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1088,10 +1132,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1120,6 +1160,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1191,10 +1238,6 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1223,6 +1266,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1294,10 +1344,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1326,6 +1372,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1404,10 +1457,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1436,6 +1485,20 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-id+json). Do not include \"version\".",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -1520,10 +1583,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1552,6 +1611,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1618,10 +1684,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1650,6 +1712,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1720,10 +1789,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1752,6 +1817,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1823,10 +1895,6 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1855,6 +1923,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1926,10 +2001,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1958,6 +2029,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2036,10 +2114,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2065,9 +2139,23 @@
 								"enabled": true
 							},
 							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-id+json). Do not include \"version\".",
+								"type": "string",
+								"enabled": true
+							},
+							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token provided after authorization in the format \"Bearer {ACCESS_TOKEN}\"",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -2152,10 +2240,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2177,6 +2261,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-full+json; version=1). \"Version\" is required.",
 								"type": "string",
 								"enabled": true
 							},
@@ -2250,10 +2341,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2282,6 +2369,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2352,10 +2446,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2384,6 +2474,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2455,10 +2552,6 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2487,6 +2580,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2558,10 +2658,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2590,6 +2686,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2668,10 +2771,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2700,6 +2799,20 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "Descriptors require unique Accept headers using 'xdm' instead of 'xed' (eg. application/vnd.adobe.xdm-id+json)",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -2784,10 +2897,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2816,6 +2925,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2882,10 +2998,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2914,6 +3026,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -2985,10 +3104,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -3017,6 +3132,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3088,10 +3210,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -3120,6 +3238,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3198,12 +3323,15 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
+								"key": "Content-Type",
 								"value": "application/json"
 							},
 							{
-								"key": "Content-Type",
-								"value": "application/json"
+								"key": "Accept",
+								"value": "{{Accept}}",
+								"description": "The desired response format (eg. application/vnd.adobe.xed-id+json). Do not include \"version\".",
+								"type": "string",
+								"enabled": true
 							},
 							{
 								"key": "Authorization",
@@ -3230,6 +3358,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed-id+json",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json).",
 								"type": "string",
 								"enabled": true
 							}
@@ -3307,10 +3442,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -3339,6 +3470,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}

@@ -41,10 +41,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.hal+json; schema='https://ns.adobe.com/experience/xcore/hal/results'"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.hal+json"
 							},
@@ -87,6 +83,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -189,10 +192,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.hal+json; schema='https://ns.adobe.com/experience/xcore/hal/results'"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.hal+json"
 							},
@@ -235,6 +234,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -338,10 +344,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/schema-instance+json; schema=\"{namespaceId1} {namespaceId2}\""
 							},
@@ -384,6 +386,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -450,10 +459,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/schema-instance+json; schema=\"{namespaceId1} {namespaceId2}\", application/vnd.adobe.platform.xcore.hal+json; schema=\"{namespaceId1} {namespaceId2}\""
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.hal+json"
 							},
@@ -503,6 +508,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -574,10 +586,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/schema-instance+json; schema=\"{namespaceId1} {namespaceId2}\""
 							},
@@ -627,6 +635,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -698,10 +713,6 @@
 						"method": "PATCH",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.patch.hal+json; schema=\"{namespaceId1} {namespaceId2}\""
 							},
@@ -751,6 +762,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -822,10 +840,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.xcore.xdm.receipt+json; version=1"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.hal+json"
 							},
@@ -875,6 +889,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -953,10 +974,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "*, application/vnd.adobe.platform.xcore.home.hal+json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.xcore.hal+json"
 							},
@@ -999,6 +1016,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}

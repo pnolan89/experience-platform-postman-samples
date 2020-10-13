@@ -41,10 +41,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=engineListing.v1.json"
-							},
-							{
 								"key": "x-gw-ims-org-id",
 								"value": "{{IMS_ORG}}",
 								"description": "The Organization ID which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -55,6 +51,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -113,10 +116,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=engine.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "multipart/form-data"
 							},
@@ -131,6 +130,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -244,10 +250,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=enginesDockerRegistryInfo.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -272,6 +274,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -331,10 +340,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=engine.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -359,6 +364,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -424,10 +436,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=engine.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=engine.v1.json"
 							},
@@ -456,6 +464,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -521,10 +536,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -549,6 +560,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -621,10 +639,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstanceListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -649,6 +663,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -707,10 +728,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstance.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstance.v1.json"
 							},
@@ -739,6 +756,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -797,10 +821,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -825,6 +845,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -889,10 +916,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstance.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -917,6 +940,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -981,10 +1011,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstance.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=mlInstance.v1.json"
 							},
@@ -1013,6 +1039,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1077,10 +1110,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1105,6 +1134,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1176,10 +1212,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1204,6 +1236,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1261,10 +1300,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experiment.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=experiment.v1.json"
 							},
@@ -1293,6 +1328,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1350,10 +1392,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1378,6 +1416,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1442,10 +1487,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experiment.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1470,6 +1511,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1534,10 +1582,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experiment.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=experiment.v1.json"
 							},
@@ -1566,6 +1610,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1630,10 +1681,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1658,6 +1705,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1722,10 +1776,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentRunListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1750,6 +1800,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1815,10 +1872,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentRun.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentRun.v1.json"
 							},
@@ -1847,6 +1900,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1912,10 +1972,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentRun.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -1940,6 +1996,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2010,10 +2073,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=experimentRunStatus.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2038,6 +2097,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2116,10 +2182,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=modelListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2144,6 +2206,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2202,10 +2271,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=model.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "multipart/form-data"
 							},
@@ -2234,6 +2299,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2305,10 +2377,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=model.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2333,6 +2401,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2398,10 +2473,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=model.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=model.v1.json"
 							},
@@ -2430,6 +2501,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2495,10 +2573,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2523,6 +2597,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2588,10 +2669,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/octet-stream"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2616,6 +2693,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2681,10 +2765,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=modelTranscodingListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2709,6 +2789,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2774,10 +2861,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=modelTranscoding.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=modelTranscoding.v1.json"
 							},
@@ -2806,6 +2889,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2871,10 +2961,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=modelTranscoding.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -2899,6 +2985,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2976,10 +3069,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=insightListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3004,6 +3093,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3062,10 +3158,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=insight.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=insight.v1.json"
 							},
@@ -3094,6 +3186,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3152,10 +3251,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=insight.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3180,6 +3275,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3245,10 +3347,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=defaultMetricsListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3273,6 +3371,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3345,10 +3450,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlServiceListing.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3373,6 +3474,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3431,10 +3539,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlService.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=mlService.v1.json"
 							},
@@ -3463,6 +3567,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3521,10 +3632,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3549,6 +3656,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3613,10 +3727,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": ", application/vnd.adobe.platform.sensei+json;profile=mlService.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3641,6 +3751,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3705,10 +3822,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=mlService.v1.json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/vnd.adobe.platform.sensei+json;profile=mlService.v1.json"
 							},
@@ -3737,6 +3850,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -3801,10 +3921,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/vnd.adobe.platform.sensei+json;profile=api-response.v1.json"
-							},
-							{
 								"key": "Authorization",
 								"value": "Bearer {{ACCESS_TOKEN}}",
 								"description": "The access token which can be copied from your Experience Platform integration, prefixed with \"Bearer \" (for example, `Bearer {ACCESS_TOKEN}`). For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
@@ -3829,6 +3945,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "The name of the sandbox in which the operation will take place. See the [sandboxes overview documentation](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html) for more information.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}

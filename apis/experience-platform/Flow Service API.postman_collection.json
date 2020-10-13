@@ -41,10 +41,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -73,6 +69,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -153,10 +156,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -185,6 +184,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -243,10 +249,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -275,6 +277,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -340,10 +349,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -372,6 +377,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -438,10 +450,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -470,6 +478,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -536,10 +551,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -568,6 +579,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -641,10 +659,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -673,6 +687,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -737,10 +758,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -769,6 +786,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -841,10 +865,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -873,6 +893,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -953,10 +980,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -985,6 +1008,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1043,10 +1073,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1075,6 +1101,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1140,10 +1173,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1172,6 +1201,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1238,10 +1274,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1270,6 +1302,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1343,10 +1382,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1375,6 +1410,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1439,10 +1481,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1471,6 +1509,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1543,10 +1588,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1575,6 +1616,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1655,10 +1703,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1687,6 +1731,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1745,10 +1796,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1777,6 +1824,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1849,10 +1903,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1881,6 +1931,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -1939,10 +1996,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -1971,6 +2024,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2036,10 +2096,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2068,6 +2124,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2141,10 +2204,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2173,6 +2232,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2231,10 +2297,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2263,6 +2325,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "Identifies the Adobe Experience Platform sandbox to use. Default sandbox is 'prod'",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -2328,10 +2397,6 @@
 						"method": "DELETE",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -2360,6 +2425,13 @@
 								"key": "x-sandbox-name",
 								"value": "{{SANDBOX_NAME}}",
 								"description": "All resources in Experience Platform are isolated to specific virtual sandboxes. Requests to Platform APIs require a header that specifies the name of the sandbox in which the operation will take place.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}

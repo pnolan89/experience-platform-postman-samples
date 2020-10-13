@@ -41,10 +41,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -73,6 +69,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -131,10 +134,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -163,6 +162,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -228,10 +234,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -260,6 +262,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key belonging to the calling client.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -332,10 +341,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -364,6 +369,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key belonging to the calling client.",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -443,10 +455,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -475,6 +483,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -551,10 +566,6 @@
 						"method": "GET",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -583,6 +594,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -666,10 +684,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -698,6 +712,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -771,10 +792,6 @@
 						"method": "PUT",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -803,6 +820,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
@@ -876,10 +900,6 @@
 						"method": "POST",
 						"header": [
 							{
-								"key": "Accept",
-								"value": "application/json"
-							},
-							{
 								"key": "Content-Type",
 								"value": "application/json"
 							},
@@ -908,6 +928,13 @@
 								"key": "x-api-key",
 								"value": "{{API_KEY}}",
 								"description": "The API key which can be copied from your Experience Platform integration. For more information on how to obtain this value, visit the documentation covering making API calls in the [authentication tutorial](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).",
+								"type": "string",
+								"enabled": true
+							},
+							{
+								"key": "Accept",
+								"value": "application/vnd.adobe.xed+json; version=1",
+								"description": "The desired response format (application/vnd.adobe.xed-full+json; version=1). 'Version' is required.",
 								"type": "string",
 								"enabled": true
 							}
